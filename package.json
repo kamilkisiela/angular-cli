@@ -62,6 +62,7 @@
     "fs-extra": "^0.30.0",
     "get-caller-file": "^1.0.0",
     "glob": "^7.0.3",
+    "graphql-tag": "^1.2.2",
     "html-webpack-plugin": "^2.19.0",
     "inflection": "^1.7.0",
     "inquirer": "^0.12.0",

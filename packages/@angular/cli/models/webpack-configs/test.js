@@ -87,6 +87,7 @@ const getTestConfig = function (projectRoot, environment, appConfig, testConfig)
           ],
           exclude: [/\.e2e\.ts$/]
         },
+        { test: /\.(graphql|gql)$/, loader: 'graphql-tag/loader' },
         { test: /\.json$/, loader: 'json-loader' },
         { test: /\.css$/, loaders: ['raw-loader', 'postcss-loader'] },
         { test: /\.styl$/, loaders: ['raw-loader', 'postcss-loader', 'stylus-loader'] },
